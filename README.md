@@ -6,4 +6,4 @@ Adopt *NSURLSessionDataTask* and *NSURLSessionDownloadTask* to perform the actua
 
 Firstly, the task was *NSURLSessionDataTask*, it prompt us if it received the first response, we'll treat it as the timestamp that download jobs actually happen. 
 
-then switch the Task to *NSURLSessionDownloadTask*, it updates the progress periodically and enable us to calculate the download rate.
+then switch the task to *NSURLSessionDownloadTask*, it updates the progress periodically and enable us to calculate the download rate.
