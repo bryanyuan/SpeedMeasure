@@ -14,8 +14,8 @@
 @property int64_t completedCount;
 @property int64_t lastSecondCount;
 @property NSTimer *timer;
-@property NSURLSessionDataTask *dataTask;
-@property NSURLSessionDownloadTask *downloadTask;
+@property (nonatomic, strong) NSURLSessionDataTask *dataTask;
+@property (nonatomic, strong) NSURLSessionDownloadTask *downloadTask;
 @end
 
 @implementation DownloadSpeedHandler
